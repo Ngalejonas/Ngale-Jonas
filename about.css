@@ -1,0 +1,50 @@
+body{
+  background-image: url(blog2.jpg).jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-us {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about-us h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .about-us p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .about-us h3 {
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .about-us ul {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .about-us li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  .about-us li:before {
+    content: "\2022";
+    position: absolute;
+    left: 0;
+    font-size: 24px;
+    color: #c18e51;
+  }

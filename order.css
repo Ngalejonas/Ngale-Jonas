@@ -1,0 +1,135 @@
+body{
+  background-image: url(sup\ \(8\).jpg).jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.order-list {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .order-list h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .order-list form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .menu-item {
+    width: calc(33.33% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #c18e51;
+    padding: 20px;
+    border-radius: 4px;
+
+  }
+  
+  .menu-item img {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+  }
+  .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  #search-input {
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #c18e51;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 70%;
+  }
+  
+  #search-btn {
+    font-size: 18px;
+    color: #fff;
+    background-color: #c18e51;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #search-btn:hover {
+    background-color: #a6753a;
+  }  
+  .menu-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  
+  .menu-item p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item input[type="number"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #c18e51;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .payment-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .payment-option label {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  
+  .order-list button[type="submit"] {
+    font-size: 18px;
+    color: #fff;
+    background-color: #c18e51;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .order-list button[type="submit"]:hover {
+    background-color: #a6753a;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .menu-item {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .menu-item {
+      width: 100%;
+      margin-right: 0;
+    }
+  }

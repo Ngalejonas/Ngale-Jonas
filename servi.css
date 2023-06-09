@@ -1,0 +1,44 @@
+body {
+  background-image: url(blog1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.services {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .services h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .services article {
+    margin-bottom: 40px;
+  }
+  
+  .services h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .services p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  .services h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .services p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  

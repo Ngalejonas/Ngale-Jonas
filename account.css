@@ -1,0 +1,54 @@
+body{
+  background-image: url(sup\ \(10\).jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.account {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .account h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .account form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .account label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .account input[type="email"],
+  .account input[type="password"],
+  .account input[type="text"],
+  .account input[type="tel"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #c18e51;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .account button[type="submit"] {
+    font-size: 18px;
+    color: #fff;
+    background-color: #c18e51;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .account button[type="submit"]:hover {
+    background-color: #a6753a;
+  }
